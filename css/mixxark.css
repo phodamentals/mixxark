@@ -1,0 +1,138 @@
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+
+.navbar-fixed-top .nav {
+    padding: 4px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+footer {
+    padding: 30px 0;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
+
+
+.table>tbody>tr>td {
+	line-height: 2.2em !important;
+}
+
+.navigation {
+font-family: 'Oswald', sans-serif; 
+text-transform: uppercase;
+}
+
+.navigation_active {
+font-family: 'Oswald', sans-serif; 
+text-transform: uppercase;
+color: #fff !important;
+}
+
+h1, h2, h3, h4 {
+margin-top: 5px;
+font-family: 'Oswald', sans-serif; 
+text-transform: uppercase;
+
+}
+
+.OswaldFont {
+font-family: 'Oswald', sans-serif; 
+}
+
+.djLogos {
+max-width: 90px; 
+opacity: .6;
+}
+
+.djLogos:hover {
+transition: all 0.3s ease;
+opacity: 1;
+}
+
+.frontpage-btn {
+    width: 100%;
+    margin-top: 3px;
+}
+
+.adjustIcon {
+    margin-right: 10px;
+    margin-top: 2px;
+    vertical-align: top;
+}
+
+.side-container {
+    display: inline-block;
+    border-left: 1px solid #e0e0e0;
+    min-height: 300px;
+    padding-left: 30px;
+
+}
+
+.profilePic {
+    border-radius: 50%;
+    max-width: 280px;
+    max-height: 280px;
+}
+
+.pane-content {
+    padding: 15px 10px;
+
+}
+
+li.social-links {
+    font-size: 28px;
+    display: inline-block;
+    margin: 5px;
+    opacity: 1;
+}
+
+li.social-links-inactive {
+    font-size: 28px;
+    display: inline-block;
+    margin: 5px;
+    opacity: .6;
+}
+
+.booking-container {
+	margin-top: 20px; 
+	border: 1px solid #000; 
+	border-radius: 3px; 
+	min-height: 100px; 
+	background-color: #fff; 
+	padding: 15px 10px;
+}
+
+.booking-date {
+	display: inline-block; 
+	border: 1px solid #000; 
+	width: 64px; 
+	text-align: center; 
+	padding: 10px;
+}
+.booking-header {
+	display: inline-block; 
+	vertical-align: top; 
+	margin: 0 20px; 
+	font-weight: bold; 
+	text-transform: uppercase;
+}
+.booking-details {
+	font-weight: normal; 
+	text-transform: none; 
+	margin-top: 10px; 
+	line-height: 2.5em; 
+	font-size: 12px;
+}
